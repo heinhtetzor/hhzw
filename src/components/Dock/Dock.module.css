@@ -1,0 +1,21 @@
+.dockBar {
+	min-width: 670px;
+	max-width: max-content;
+	height: 38px;
+	display: flex;
+	position: relative;
+}
+
+.startBtn {
+	font-style: italic;
+	font-weight: 900;
+	font-family: 'Arial';
+	padding: 0.6rem;
+	user-select: none;
+	height:  100%;
+	border-top-right-radius: 20%;
+	border-bottom-right-radius: 20%;
+	background-color: green;
+	cursor: pointer;
+	width: 10%;
+}
