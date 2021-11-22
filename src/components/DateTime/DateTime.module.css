@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) {
+	.container {
+		display: none;
+	}
+}
+
+
+.container {
+	cursor: pointer;
+	color: #fff;
+}

@@ -1,9 +1,14 @@
 .dockBar {
-	min-width: 670px;
-	max-width: max-content;
-	height: 38px;
+	width: 100%;
+	flex: 1;
 	display: flex;
 	position: relative;
+}
+
+.taskBar {
+	display: flex;
+	align-items: center;
+	margin-left: 0.5rem;	
 }
 
 .startBtn {
@@ -12,10 +17,9 @@
 	font-family: 'Arial';
 	padding: 0.6rem;
 	user-select: none;
-	height:  100%;
-	border-top-right-radius: 20%;
-	border-bottom-right-radius: 20%;
-	background-color: green;
+	height:  100%;	
+	background-color: rgba(88, 248, 88, 0.786);
+	color: #fff;
 	cursor: pointer;
-	width: 10%;
+	width: 100px;
 }
