@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Colors from '../../constants/Colors';
 import {Rnd} from 'react-rnd';
 import Browser from '../Applications/Browser';

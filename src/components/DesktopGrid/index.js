@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import DesktopGridItem from '../DesktopGridItem';
 
 const DesktopGrid = ({ items, openWindow }) => {
@@ -13,10 +12,10 @@ const DesktopGrid = ({ items, openWindow }) => {
 		gridAutoFlow: 'column'
 	};
 	
-	const itemGrid = items.map (item => {
+	const itemGrid = items.map ((item, index) => {
 		return  (
 			<DesktopGridItem 
-				key={item.id}
+				key={index}
 				item={item}
 				openWindow={openWindow}
 			/>

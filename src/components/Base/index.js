@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import MainLayout from "../layouts/MainLayout";
 import Dock from "../Dock";
 import Window from "../Window";
@@ -13,19 +13,19 @@ export default function Base ()
 		{
 			name: "about",
 			label: "About Me",
-			logo: "/assets/dockitems/about.png",
+			logo: "./assets/dockitems/about.png",
 			stackable: false,
 		},
 		{
 			name: "about-this",
 			label: "About This",
-			logo: "/assets/dockitems/question-mark.png",
+			logo: "./assets/dockitems/question-mark.png",
 			stackable: false,
 		},
 		{
 			name: "browser",
 			label: "Bing",
-			logo: "/assets/dockitems/bing.png",
+			logo: "./assets/dockitems/bing.png",
 			stackable: false,
 			width: '100%',
 			height: '95%',

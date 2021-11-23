@@ -73,17 +73,17 @@ export default function Dock ({ openWindow, minimizeWindow, openedWindows, setAc
 					<TrayIcon
 						name="Github"
 						link="https://github.com/heinhtetzor"
-						logoUrl="/assets/tray/github.png"
+						logoUrl="./assets/tray/github.png"
 					 />
 					<TrayIcon
 						name="Email"
 						link="mailto:heinhzor@gmail.com"
-						logoUrl="/assets/tray/email.png"
+						logoUrl="./assets/tray/email.png"
 					 />
 					<TrayIcon
 						name="LinkedIn"
 						link="https://www.linkedin.com/in/hein-htet-zaw-1a5779114/"
-						logoUrl="/assets/tray/in.png"
+						logoUrl="./assets/tray/in.png"
 					 />
 				</div>
 			</div>

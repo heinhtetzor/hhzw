@@ -99,14 +99,14 @@ const About = () => {
 						<h4>Watermark Editor</h4>
 						<ul style={listGroupStyle}>
 							<li>Canvas based Watermark Editor that provides editing watermark text, changing colors, fonts and layout </li>
-							<li><a href="https://hhzw.me/wp">https://hhzw.me/wp</a></li>
+							<li><a href="http://hhzw.me/wp">https://hhzw.me/wp</a></li>
 							<li>Used React, Redux</li>
 						</ul>
 						<br/>
 						<h4>Simple Spreadsheet</h4>
 						<ul style={listGroupStyle}>
 							<li>Just experimenting how simple spreadsheet grid that allows selecting cells and calculating selected cells, can be created using vanilla JS.</li>
-							<li><a href="https://hhzw.me/spreadsheet">https://hhzw.me/spreadsheet</a></li>
+							<li><a href="http://hhzw.me/spreadsheet">https://hhzw.me/spreadsheet</a></li>
 							<li>Used HTML, CSS, Javascript</li>
 						</ul>
 						<br/>
