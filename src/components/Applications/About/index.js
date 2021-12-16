@@ -40,7 +40,7 @@ const About = () => {
 	];
 
 	const tabList = tabs.map (tabItem => <TabItem tabItem={tabItem} setTab={setTab} tab={tab} />)
-	
+
 	const tabContent = () => {
 		switch (tab.id) {
 			case 0:
@@ -50,9 +50,9 @@ const About = () => {
 					<ul style={listGroupStyle}>
 						<li>Javascript, React, Vue, Angular, NodeJS</li>
 						<li>PHP, Laravel, MySQL</li>
-						
+
 					</ul>
-					
+
 					<br/>
 					<h4>💻 Other Familiar Technologies</h4>
 					<ul style={listGroupStyle}>
@@ -89,7 +89,7 @@ const About = () => {
 							<li>Implemented Inventory Management module, Order tracking module etc</li>
 							<li>Worked with PHP Laravel, ReactJS</li>
 						</ul>
-						<br/>						
+						<br/>
 
 					</>
 				)
@@ -99,7 +99,7 @@ const About = () => {
 						<h4>Watermark Editor</h4>
 						<ul style={listGroupStyle}>
 							<li>Canvas based Watermark Editor that provides editing watermark text, changing colors, fonts and layout </li>
-							<li><a href="http://hhzw.me/wp">https://hhzw.me/wp</a></li>
+							<li><a href="http://hhzw.me/wp">http://hhzw.me/wp</a></li>
 							<li>Used React, Redux</li>
 						</ul>
 						<br/>
@@ -121,26 +121,26 @@ const About = () => {
 						<p>Please check out my Github profile at <a href="https://github.com/heinhtetzor">👉🏻 Here</a></p>
 					</>
 				);
-			case 3:	
+			case 3:
 			return (
 				<>
 					<h4>Grad Dip in System Analysis</h4>
-					<i>National University of Singapore <small>Singapore</small></i> 
+					<i>National University of Singapore <small>Singapore</small></i>
 					<p>2019 Aug - 2020 Aug</p>
-					<br/>	
+					<br/>
 					<h4>B.Sc in Business Information Technology</h4>
-					<i>University of Greenwich <small>Yangon, Myanmar</small></i> 
+					<i>University of Greenwich <small>Yangon, Myanmar</small></i>
 					<p>2019 Aug - 2020 Aug</p>
 					<br/>
 				</>
 			)
-		
+
 			default:
 				return <p>Nothing</p>
 		}
 	};
 
-	
+
 
 
 	return (
@@ -152,7 +152,7 @@ const About = () => {
 				}
 			</div>
 			<div style={tabContentStyle}>
-				
+
 				{
 					tabContent()
 				}

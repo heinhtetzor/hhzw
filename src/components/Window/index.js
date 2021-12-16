@@ -3,6 +3,7 @@ import Colors from '../../constants/Colors';
 import {Rnd} from 'react-rnd';
 import Browser from '../Applications/Browser';
 import About from '../Applications/About';
+import GuestBook from '../Applications/GuestBook';
 
 const Window = ({ index, window, setActiveWindow, isActive, closeWindow, minimizeWindow }) => {
 	
@@ -90,6 +91,9 @@ const Window = ({ index, window, setActiveWindow, isActive, closeWindow, minimiz
 					<p>This website is themed a little bit toward retro Ui since I am a big fan of retro UIs.</p>
 				</div>
 				);
+
+			case "guests-book":
+				return <GuestBook/>;
 
 			default:
 				return "Nothing";

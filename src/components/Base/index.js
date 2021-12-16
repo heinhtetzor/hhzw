@@ -3,34 +3,12 @@ import MainLayout from "../layouts/MainLayout";
 import Dock from "../Dock";
 import Window from "../Window";
 import DesktopGrid from '../DesktopGrid';
+import applications from '../../constants/Applications';
 export default function Base ()
 {
 	const [openedWindows, setOpenedWindows] = useState([]);	
 	const [activeWindow, setActiveWindow] = useState(null); // activeWindow is the window that is currently focused
 	const [windowCount, setWindowCount] = useState(0);
-
-	const applications = [
-		{
-			name: "about",
-			label: "About Me",
-			logo: "./assets/dockitems/about.png",
-			stackable: false,
-		},
-		{
-			name: "about-this",
-			label: "About This",
-			logo: "./assets/dockitems/question-mark.png",
-			stackable: false,
-		},
-		{
-			name: "browser",
-			label: "Bing",
-			logo: "./assets/dockitems/bing.png",
-			stackable: false,
-			width: '100%',
-			height: '95%',
-		},
-	];
 
 	//action from dock
 	const openWindow = (windowData) => {
